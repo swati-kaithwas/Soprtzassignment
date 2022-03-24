@@ -1,0 +1,18 @@
+.unque_id {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  justify-content: center;
+  gap: 20px;
+  grid-template-rows: 50% 50%;
+}
+img {
+  padding-left: 100px;
+}
+.dir ol:hover {
+  border: none;
+  cursor: pointer;
+}
+.dir li {
+  display: flex;
+  gap: 90px;
+}

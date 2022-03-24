@@ -1,0 +1,31 @@
+.mane_div {
+  height: 70px;
+  width: 100%;
+  background-color: azure;
+  box-shadow: 10px rgb(0, 255, 85);
+  display: grid;
+  grid-template-columns: 30% 40% 20%;
+  justify-content: center;
+  align-items: center;
+}
+.mane_div:hover {
+  cursor: pointer;
+  color: blue;
+}
+.div_2 ol {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+}
+.div_2 ol:hover {
+  cursor: pointer;
+  color: blue;
+}
+.div_2 li {
+  list-style: none;
+  /* display: flex; */
+}
+input {
+  height: 30px;
+  width: 300px;
+}
